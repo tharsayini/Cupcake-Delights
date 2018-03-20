@@ -1,0 +1,84 @@
+body, html
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 70px;
+  font-family: cursive;
+  font-weight: 400;
+  line-height: 1em;
+  color: #666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4
+{
+  position:relative;
+  opacity:0.9;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.pimg1
+{
+  background-image:url('../img/1.jpeg');
+  min-height:100%;
+}
+
+.pimg2
+{
+  background-image:url('../img/2.jpeg');
+  min-height:400px;
+}
+
+.pimg3
+{
+  background-image:url('../img/3.jpeg');
+  min-height:300px;
+}
+
+.pimg4
+{
+  background-image:url('../img/4.png');
+  min-height:400px;
+}
+
+.section
+{
+  font-family: cursive;
+  font-size: 30px;
+  font-style: normal;
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light
+{
+  background-color:#8de0db;
+  color:#ffffff;
+}
+
+.section-dark
+{
+  background-color:#f9b775;
+  color:#ffffff;
+}
+
+@font-face
+{
+    font-family: "Sweet Hipster";
+    src: url("../css/fonts/Sweet Hipster.ttf");
+    font-style: normal;
+    font-weight: 200;
+}
+
+.ptext
+{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000000;
+  font-size:150px;
+  font-family: "Sweet Hipster";

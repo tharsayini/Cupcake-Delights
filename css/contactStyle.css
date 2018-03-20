@@ -1,0 +1,73 @@
+@font-face
+{
+    font-family: "Sweet Hipster";
+    src: url("../css/fonts/Sweet Hipster.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image:url('../img/3.jpeg');
+  background-position: center;
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  min-height:400px;
+  font-family: "Sweet Hipster";
+}
+
+.contact-title
+{
+  margin-top: 100px;
+  color: #fff;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h1
+{
+  font-size: 100px;
+  line-height: 10px;
+}
+
+form
+{
+  margin-top: 50px;
+}
+
+.form-control
+{
+  width: 600px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input
+{
+  height: 45px;
+}
+
+input.submit
+{
+  background-color: #C2A2C8;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px
+  margin-top: 20px
+}
+form.submit: hover
+{
+  background-color: #BBA2C8;
+  cursor: pointer;
+}

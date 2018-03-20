@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cupcake Delights</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        Cupcake Delights
+      </span>
+    </div>
+  </div>
+
+
+<a href="aboutus.html">  <section class="section section-light">
+   about us
+ </section></a>
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+  menu
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>custom make</h2>
+    <p>
+
+    </p>
+  </section>
+  </div>
+  <a href="gallery.html"> <div class="pimg3">
+    <div class="ptext">
+      <span class="border trans">
+        Gallery</a>
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Delivery</h2>
+    <p>
+
+    </p>
+  </section>
+<a href="contactus.html"> <div class="pimg4">
+    <div class="ptext">
+      <span class="border trans">
+        contact us </a>
+      </span>
+    </div>
+  </div>
+
+</body>
+</html>
